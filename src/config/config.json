@@ -1,0 +1,25 @@
+{
+  "development": {
+    "username": "root",
+    "password": "Anhduy5374?",
+    "database": "store",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "logging": false
+    
+  },
+  "test": {
+    "username": "root",
+    "password": "Anhduy5374?",
+    "database": "store",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "Anhduy5374?",
+    "database": "store",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
