@@ -1,4 +1,4 @@
-const user= require('../controllers/user')
+import user from '../controllers/user'
 
 const router= require('express').Router()
 
