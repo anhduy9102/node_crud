@@ -22,11 +22,7 @@ export const register = ({email, password}) => new Promise( async(resolve, rejec
             'access_token': token ? `Bearer ${token}` : token
         })
 
-        resolve({
-            err:0,
-            mes:'register service'
-        })      
-
+        
     }catch (error){
         reject(error)
     }
